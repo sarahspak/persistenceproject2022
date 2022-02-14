@@ -1,5 +1,9 @@
 let canvas = document.querySelector("canvas");
-let context = canvas.getContext("2d");
+var context = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
 context.strokeStyle = "orange";
 context.lineWidth = (Math.random() + 1) * 4;
 let gap = (Math.random() + 1) * 25;
