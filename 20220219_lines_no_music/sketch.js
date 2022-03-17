@@ -9,8 +9,6 @@ let prevHeadingB = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  console.log(windowWidth);
-  console.log(windowHeight);
 
   noStroke();
   startX = randomNum(1, windowWidth - 100);

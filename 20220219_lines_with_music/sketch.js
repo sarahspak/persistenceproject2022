@@ -283,17 +283,6 @@ function randomNum(min, max) {
   return Math.floor(Math.random() * (max - min)) + min; // You can remove the Math.floor if you don't want it to be an integer
 }
 
-function isDivideBy(number, a, b) {
-  return number % a === 0 && number % b === 0;
-}
-
-function randomColor() {
-  r = random(0, 255);
-  g = random(0, 255);
-  b = random(0, 255);
-  return [r, g, b];
-}
-
 hex_codes = ["#D2B48C", "#EBCCAB", "#C37C4D"];
 
 function createFibers() {
